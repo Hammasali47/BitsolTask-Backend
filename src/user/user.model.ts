@@ -1,5 +1,3 @@
-// src/user/user.model.ts
-
 import * as mongoose from 'mongoose';
 
 export const UserSchema = new mongoose.Schema({
@@ -16,4 +14,5 @@ export const UserSchema = new mongoose.Schema({
   ],
   role: String,
   phoneNo: String,
+  password: String
 });
